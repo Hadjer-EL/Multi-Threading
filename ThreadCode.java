@@ -1,3 +1,4 @@
+import java.util.concurrent.Semaphore;
 class ThreadCcode extends Thread{
     public String c;
      public  Semaphore s1 , s2;
