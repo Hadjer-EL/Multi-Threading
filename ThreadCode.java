@@ -1,5 +1,5 @@
 import java.util.concurrent.Semaphore;
-class ThreadCcode extends Thread{
+class ThreadCode extends Thread{
     public String c;
      public  Semaphore s1 , s2;
    public ThreadCode(String c , Semaphore s1, Semaphore s2){
